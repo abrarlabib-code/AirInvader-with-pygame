@@ -248,7 +248,7 @@ def invade():
 
     #objs and fonts
     defender = plane(430,660,70,45,pics[0])
-    backbutton = button(0,0,60,30,(255,255,255),(255,0,0),"back")
+    backbutton = button(0,0,60,30,(255,255,255),(255,0,0),"quit")
     plybutton = button(300,650,200,60,(255,255,255),(0,0,0),"play again")
     hint = disp_txt("Tap SPACE-BAR/UP to fire, Tap LEFT/RIGHT to move respective direction",100,(100,400))
 
